@@ -1,0 +1,165 @@
+
+
+body {
+    background-color: rgb(255, 245, 201);
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+  margin: 15px auto 0;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+
+#dollarSign {
+  color: rgb(255, 230, 82);
+  margin-left: -10px;
+  font-size: 30px;
+}
+
+#mainWindow {
+  height: 540px;
+  width: 640px;
+
+  margin: 15px auto;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgb(70, 172, 255);
+  border: 15px solid white;
+}
+
+#npcWindow {
+  height: 280px;
+  width: 560px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#npcPortraitWindow {
+  height: 160px;
+  width: 160px;
+  margin-top: 25px;
+
+  border: 6px solid rgb(255, 230, 82);
+}
+
+#npcTextWindow {
+  height: 220px;
+  width: 340px;
+  margin-top: 25px;
+
+  border: 6px solid rgb(255, 230, 82);
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#npcText {
+  font-size: 20px;
+  color: rgb(60, 60, 60);
+  text-align: left;
+
+  height: 180px;
+
+  margin-top: 10px;
+  padding: 0 20px;
+
+}
+
+#nextCursor {
+
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(160, 160, 160);
+  text-align: center;
+
+  width: 340px;
+  height: 20px;
+  margin-bottom: 10px;
+
+}
+
+.hoverElement:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+#userInput {
+  height: 140px;
+  width: 560px;
+  border: 6px solid rgb(255, 230, 82);
+  margin: 10px auto;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#userInput p {
+  text-align: left;
+  margin-top: 20px;
+  line-height: 6px;
+}
+
+input {
+  height: 40px;
+  width: 320px;
+  font-size: 26px;
+
+  background-color: rgb(245, 245, 245);
+
+}
+
+button {
+  /* margin: 10px; */
+  height: 40px;
+  width: 220px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: rgb(70, 172, 255);
+  color: rgb(255, 230, 82);
+}
+
+
+#gameOver {
+  height: 260px;
+  width: 440px;
+
+  margin: 50px auto;
+  padding-top: 30px;
+  text-align: center;
+
+  background-color: rgb(70, 172, 255);
+  border: 15px solid white;
+
+  font-size: 30px;
+  color: rgb(255, 230, 82);
+}
+
+#safariWindow {
+  height: 260px;
+  width: 440px;
+
+  margin: 50px auto;
+  padding-top: 30px;
+  text-align: center;
+
+  background-color: rgb(70, 172, 255);
+  border: 15px solid white;
+
+  font-size: 20px;
+  color: rgb(255, 230, 82);
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Text Adventure</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+    <audio id='muzak' src="./sounds/text-adventure-muzak.mp3"></audio>
+    <audio id='talking' src="./sounds/text-adventure-talking.mp3"></audio>
+
+  </head>
+
+
+
+
+
+
+
+  <body>
+
+
+    <!-- ########### APP MAIN WINDOW ############################## -->
+    <!-- ########################################################## -->
+    <div id="mainWindow">
+
+
+      <!-- ########### HEADER WITHIN WINDOW ####################### -->
+      <h2>- PriceMart <span id="dollarSign">&#36;</span> -</h2>
+
+
+      <!-- ########### NPC SECTION ################################ -->
+      <div id="npcWindow">
+
+        <div id="npcPortraitWindow">
+          <!-- blank image -->
+          <img id="npcPortraitImg" height="160px" width="160px"></img>
+        </div>
+
+        <div id="npcTextWindow">
+          <!-- blank text -->
+          <p id="npcText"></p>
+          <!-- [click to continue] hidden, but still takes up space -->
+          <div id="nextCursor" style="visibility: hidden;">[ click to continue ]</div>
+        </div>
+
+      </div>
+
+      <!-- ########### USER SECTION ############################### -->
+      <div id="userInput">
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+    <!-- ########### GAME OVER WINDOW ############################## -->
+    <!-- [game over] hidden, does not take up space -->
+    <div id="gameOver" style="display: none;" >
+      <p> Thats it for now! </p>
+      <a href='index.html'>play again</a>
+    </div>
+
+
+    <!-- ########### SAFARI PLAY WINDOW ############################# -->
+    <div id="safariWindow" style="display: none;" >
+      <p> Sorry! Safari requires you to push this button to play! </p>
+      <p> For the best experience, please use Chrome. </p>
+      <button id="safariButton"> PLAY GAME </button>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+
+  </body>
+
+
+
+
+</html>
+
+
+
+
+
+<!--  -->
